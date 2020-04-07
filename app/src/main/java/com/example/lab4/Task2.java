@@ -29,21 +29,12 @@ public class Task2 extends AppCompatActivity {
         final TextView redHat = findViewById(R.id.redhat);
         final TextView intel = findViewById(R.id.intel);
 
-
-
-
         fetchApi("Apple","AAPL", apple);
         fetchApi("Google", "GOOGL", google);
         fetchApi("Facebook", "FB", faceBook);
         fetchApi("Nokia", "NOK", nokia);
         fetchApi("Red hat", "RHT", redHat);
         fetchApi("Intel", "INTC", intel);
-
-
-
-
-
-
     }
 
     public void fetchApi(final String companyName, final String stockId, final TextView companyView) {
